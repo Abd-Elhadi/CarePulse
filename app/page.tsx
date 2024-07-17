@@ -9,8 +9,10 @@ export default function Home() {
     let currentDate = new Date();
     const currentYear = currentDate.getFullYear();
     const copyrightText = `© ${currentYear} CarePulse`
+
     return (
         <div className="flex h-screen max-h-screen">
+            {/* TODO: OTP verification */}
             <section className="remove-scrollbar container my-auto">
                 <div className="sub-container max-w-[496px]">
                     <Image
